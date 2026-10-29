@@ -1,8 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 header {
-  background-color: #eaf4e8;
-  color: #477653;
-  padding: 20px;
+  background-color: #e3f2f7;
+  color: #1f6f8b;
+  padding: 40px 20px;
   text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.1rem;
+}
+
+ul {
+  padding-left: 20px;
 }
 
 .bloco {
@@ -12,7 +30,7 @@ header {
 }
 
 h2 {
-  color: #477653;
+  color: #1f6f8b;
 }
 
 .bloco h2 {
@@ -20,39 +38,29 @@ h2 {
   margin-bottom: 15px;
 }
 
+.sobre {
+  background: linear-gradient(rgba(31, 111, 139, 0.7), rgba(31, 111, 139, 0.7)),
+    url("https://images.unsplash.com/photo-1758691462878-6edc3d3da1be?w=1600&q=80") center / cover;
+  color: white;
+  padding: 60px 20px;
+  margin-top: 0;
+}
+
+.sobre h2 {
+  color: white;
+}
+
 .selo {
-  background-color: #eaf4e8;
-  color: #477653;
+  background-color: #e3f2f7;
+  color: #1f6f8b;
   padding: 3px 6px;
   border-radius: 4px;
 }
 
 .servico {
-  background-color: #f7faf6;
+  background-color: #f4fafc;
   padding: 15px;
   margin-top: 20px;
-}
-
-.contato a {
-  display: inline-block;
-  background-color: #477653;
-  color: white;
-  padding: 10px 15px;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-.imagem-clinica {
-  text-align: center;
-  margin: 20px;
-}
-
-img {
-  display: block;
-  width: 240px;
-  max-width: 100%;
-  height: auto;
-  margin: 20px auto 35px;
 }
 
 .bloco p {
@@ -60,93 +68,48 @@ img {
 }
 
 footer {
-  background-color: #eaf4e8;
-  color: #477653;
+  background-color: #e3f2f7;
+  color: #1f6f8b;
   text-align: center;
   padding: 15px;
 }
 
 .formulario-contato {
-  background-color: #f7faf6;
+  background-color: #f4fafc;
   padding: 20px;
   margin: 20px auto;
   max-width: 600px;
   border-radius: 8px;
 }
+
 .formulario-contato h2 {
   margin-bottom: 15px;
 }
+
 .formulario-contato label {
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
 }
+
 .formulario-contato input,
-.formulario-contato textarea {    
+.formulario-contato textarea {
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
+
 .formulario-contato button {
-  background-color: #477653;
+  background-color: #1f6f8b;
   color: white;
   padding: 10px 15px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
+
 .formulario-contato button:hover {
-  background-color: #3a5a45;
-}
-.formulario-contato .success-message {
-  color: green;
-  margin-top: 10px;
-}
-.formulario-contato .error-message {
-  color: red;
-  margin-top: 10px;
-}
-.formulario-contato .loading-message {
-  color: #477653;
-  margin-top: 10px;
-}
-.formulario-contato .hidden {
-  display: none;
-}
-.formulario-contato .visible {
-  display: block;
-}
-.formulario-contato .message {
-  margin-top: 10px;
-  font-weight: bold;
-}
-.formulario-contato .message.success {
-  color: green;
-}
-.formulario-contato .message.error {
-  color: red;
-}
-.formulario-contato .message.loading {
-  color: #477653;
-}
-.formulario-contato .message.hidden {
-  display: none;
-}
-.formulario-contato .message.visible {
-  display: block;
-}
-.formulario-contato .message {
-  margin-top: 10px;
-  font-weight: bold;
-}
-.formulario-contato .message.success {
-  color: green;
-}
-.formulario-contato .message.error {
-  color: red;
-}
-.formulario-contato .message.loading {
-  color: #477653;
+  background-color: #185a72;
 }
